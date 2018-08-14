@@ -1,4 +1,4 @@
-
+//数组
 const array = [1, 2, 3, 4, 5];
 array.b = '100';
 for (let i = 0; i < array.length; i++) { //编程式
@@ -32,3 +32,39 @@ let arr1 = [1, 2, 3].map(item => {
     return `<li>${item}</li>`; //``是ES6中的模板字符串 遇到变量用${}取值
 });
 console.log(arr1.join(''));
+//4)includes 查询数组里是否包括此项，返回一个布尔值 有返回true 无返回false
+let arr3 = [1,2,3,4,5,55];
+console.log(arr3.includes(6));
+//5)find 返回找到的那一项 不会改变原数组  回调函数中返回true表示找到了，找到后停止循环，如果没有找到返回undefined
+let result = arr3.find((item, index) => { //找到具体的某项用find
+    return item.toString().indexOf(5) > -1;
+});
+console.log(result);
+//6)some 找true  找到ture后停止 返回true 找不到返回false
+let result1 = arr3.some((item, index) => {
+    return item.toString().indexOf(5) > -1;
+});
+console.log(result1);
+//7)every 找false 找到false后停止 返回false
+let result2 = arr3.every((item, index) => {
+    return item.toString().indexOf(5) > -1;
+});
+console.log(result2);
+//8)reduce 收敛 4个参数 返回的是叠加的结果 原数组不发生变化 回调函数返回的结果
+    //prev代表的是数组的第一项,next是数组的第二项
+    //第二次prev是undefined,next是数组的第三项
+let sum = [1, 2, 3, 4, 5].reduce((prev, next, index, item) => {
+    // console.log(prev,next);
+    // return 100;//本次的返回值会作为下一次的prev
+    return prev + next; //数组求和
+});
+console.log(sum);
+let sum1 = [{price:30,count:2},{price:30,count:3},{price:30,count:4}].reduce((prev, next) => {
+    return prev + next.price*next.count;
+},0);//后面加0  默认指定第一次的prev
+console.log(sum1);
+//[[1,2,3],[4,5,6],[7,8,9]]
+let flat = [[1,2,3],[4,5,6],[7,8,9]].reduce((prev, next) => {
+    return prev.concat(next);
+});
+console.log(flat);
