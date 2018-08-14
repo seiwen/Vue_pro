@@ -11,5 +11,4 @@
 ### 改变原数组的 数组的变异（括号中的能改变原数组）
 - 操作数组的方法  (pop push unshift shift splice reverse sort) indexOf lastIndexOf concat slice、
 
-###
 ## forEcah filter(过滤) map(映射) some every reduce (includes find)->es6的
