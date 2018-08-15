@@ -20,3 +20,21 @@
 ## 渐进式 （渐进增强）
 - vue全家桶 vuejs + vue-router + vuex + axios
 - 通过组合 完成一个完整的框架
+
+## MVC (backbone) 单向
+- model 数据
+- view 视图
+- controller 控制器
+
+## MVVM (angular vue) 双向
+- model 数据
+- view 视图
+- viewModel 视图模型
+
+## Object.defineProperty(es5)的没有替代方案
+- 不支持ie8 <=
+
+## 安装vue
+- cdn直接引用
+- npm install vue
+
