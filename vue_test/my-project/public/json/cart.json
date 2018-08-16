@@ -1,26 +1,26 @@
 [
     {
-        "isSelected": "true",
-        "productCover": "https://img10.360buyimg.com/cms/s80x80_jfs/t23386/9/1066712099/277967/615ccafb/5b4f0e3aN262237fc.jpg",
+        "isSelected": true,
+        "productCover": "https://assets.bootcss.com/www/assets/img/w3schools.png?1532594948592",
         "productName": "Apple MacBook Pro 15.4 英寸笔记本电脑",
         "productInfo": "深空灰色 配备Touch Bar 2018 新款（ 六核八代i7 16 G 512 G固态硬盘 MR942CH / A）",
-        "productPrice": "￥21988.00",
+        "productPrice": "1",
         "productCount": "2"
     },
     {
-        "isSelected": "true",
-        "productCover": "https://img10.360buyimg.com/cms/s80x80_jfs/t23386/9/1066712099/277967/615ccafb/5b4f0e3aN262237fc.jpg",
+        "isSelected": false,
+        "productCover": "https://assets.bootcss.com/www/assets/img/w3schools.png?1532594948592",
         "productName": "Apple MacBook Pro 15.4 英寸笔记本电脑",
         "productInfo": "深空灰色 配备Touch Bar 2018 新款（ 六核八代i7 16 G 512 G固态硬盘 MR942CH / A）",
-        "productPrice": "￥21988.00",
+        "productPrice": "2",
         "productCount": "2"
     },
     {
-        "isSelected": "true",
-        "productCover": "https://img10.360buyimg.com/cms/s80x80_jfs/t23386/9/1066712099/277967/615ccafb/5b4f0e3aN262237fc.jpg",
+        "isSelected": true,
+        "productCover": "https://assets.bootcss.com/www/assets/img/w3schools.png?1532594948592",
         "productName": "Apple MacBook Pro 15.4 英寸笔记本电脑",
         "productInfo": "深空灰色 配备Touch Bar 2018 新款（ 六核八代i7 16 G 512 G固态硬盘 MR942CH / A）",
-        "productPrice": "￥21988.00",
+        "productPrice": "3",
         "productCount": "2"
     }
 ]
